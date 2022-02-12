@@ -21,11 +21,11 @@ namespace IOCA2Act1
             int inputValue;
             int targetValue = 10;
 
-            // Read user input and check if input is an integer
+            // Read user input and check if inputValue is an integer
             Console.Write("Enter a number: ");
             int.TryParse(Console.ReadLine(), out inputValue);
 
-            // Test  if it is equal to targetValue
+            // Test if inputValue is equal to targetValue
             if (inputValue == targetValue)
             {
                 Console.WriteLine("Your number {0} is equal to {1}", inputValue, targetValue);
